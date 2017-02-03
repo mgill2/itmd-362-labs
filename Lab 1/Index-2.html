@@ -11,38 +11,26 @@
   <form method="get" action="#null">
    <h1>Welcome to the Fishing Club Sign Up Form</h1>
     <label for="name">Name</label>
-    <input type="text" autocomplete="name" name="name" id="name" />
+    <input type="text" autocomplete="name" name="name" id="name"  placeholder="Enter your full name" />
     <label for="age">Age</label>
     <input type="number" pattern="[0-9]*" name="age" id="age" />
 	<label for="email">Email Address</label> 
 	<input type="email" autocomplete="email" autocorrect="off" name="email" placeholder="you@example.com" />
-	<table>
-	  <thead>
-	    <tr><th>Fresh Water fish you like to catch</th></tr>
-	  </thead>
-	  <tbody>
-	    <tr>
-		  <td> 
-		    <label for="lgr">Largemouth Bass</label>
-	        <input type="checkbox" id="lrgBass" value="first_checkbox" />
-		  </td>
-		  <td>
-		    <label for="sml">Smallmouth Bass</label>
-	        <input type="checkbox" id="smlBass" value="second_checkbox" />
-		  </td>
-	    </tr>
-		<tr>  
-		  <td>
-		    <label for="pike">Northern Pike</label>
-	        <input type="checkbox" id="pike" value="third_checkbox" />
-		  </td>
-		  <td>	
-			<label for="lgr">Muskellunge</label>
-	        <input type="checkbox" id="muskie" value="fourth_checkbox" />
-		  </td>
-		</tr>
-	  </tbody>
-    </table>	
+	
+	<label for="freshWater" id="freshWater">Fresh Water fish you like to catch</label>
+	<ul>
+	  <li>
+	    <label for="lgr">Largemouth Bass</label>
+		<input type="checkbox" id="lrgBass" value="first_checkbox" />
+		<label for="sml">Smallmouth Bass</label>
+	    <input type="checkbox" id="smlBass" value="second_checkbox" />
+	    <label for="pike">Northern Pike</label>
+        <input type="checkbox" id="pike" value="third_checkbox" />
+        <label for="lgr">Muskellunge</label>
+	    <input type="checkbox" id="muskie" value="fourth_checkbox" />	
+	    
+	  </li>
+    </ul>	  
     <input type="submit" name="submit" value="Submit" />
   </form>
 
