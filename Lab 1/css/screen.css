@@ -12,13 +12,15 @@ html {
 	font-size: 22.5px;
 	line-height: 28px;
 }
+
+
 h1 {
 	font-size: 35.156;
 	line-height: 56px;
-	font-color: red;
+	color: red;
+	text-align: center;
 	
 }
-
 
 /* Responsive Media */
 img, audio, video {
@@ -38,9 +40,16 @@ input {
 
 input[type="email"]
 {
-	border: 0;
+	/*border: 0; */
+	box-align: center;
 }
-
+input[type="submit"]
+{
+	
+}
+label[id="freshWater"] {
+	color: #00fa9a;
+}
 
 /* ===== LAYOUT STYLES ===== */
 
