@@ -196,13 +196,13 @@ html {
 
 h1 {
 	font-size: 1.182em; /* 26px */
-	line-height: 56px;
+	line-height: 1.773em; /* 39px / 22 px = 1.773em */
 	color: white;
   text-align: center;
   
 }
 p {
-    padding-bottom: 13px; 
+    padding-bottom: .591em; /* 13px /22px = .5909em   */; 
 }
 
 /* Responsive Media */
@@ -222,7 +222,7 @@ input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  padding: 14px;
+  padding: .591em;/* 13px/22px = .5909em */
   width: 100%;
   
 }
