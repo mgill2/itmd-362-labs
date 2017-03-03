@@ -243,8 +243,10 @@ form li {
 }
 
 /* ===== STATE STYLES ===== */
+.hasjs #input-email 
 .hasjs input[type="submit"].active
 {
 	position: static;
 	
 }
+
