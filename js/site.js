@@ -5,17 +5,14 @@ $.noConflict();
 jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
-  
-  $('#email').on('keyup focus blur', funciton()
-  {
-	  var currentValue = $(this).val();
-	  var validPattern = $(this).attr('pattern');
-	  if(currentValue.match(validPattern))
-	  {
-		  $('#submit').addClass('active');
-	  }
-	  else {
-		  $('#submit').removeClass('active');
-	  }
-  });
+  $('#email').on('blur', function() {
+    if($('#email').val().length == 0) {
+      $('#input-email label').removeClass('active');
+    }
+   });
 });
+
+function submitMessage() {
+  alert ("Thank you for signing up! If you wish to personalize your account there is more settings once you login! Have a great day!");
+  
+};
