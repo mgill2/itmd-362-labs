@@ -10,8 +10,18 @@ jQuery(function($) {
       $('#input-email label').removeClass('active');
     }
    });
-});
+   
+   $('form').on('click', function(event) {
+      if($('#age').val() >= 12) {
+      $('p').text("Validated").show();
+      }
+      if($('#age').val().length == 0) {
+        $('p').removeClass('active');
+      }
+  }); 
+ });
 
+ //JavaScript
 function submitMessage() {
   alert ("Thank you for signing up! If you wish to personalize your account there is more settings once you login! Have a great day!");
   
