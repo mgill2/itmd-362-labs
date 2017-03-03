@@ -11,7 +11,7 @@ jQuery(function($) {
     }
    });
    
-   $('form').on('click', function(event) {
+   $('form').on('click', function(ageV) {
       if($('#age').val() >= 12) {
       $('p').text("Validated").show();
       }
@@ -19,6 +19,12 @@ jQuery(function($) {
         $('p').text("Not a valid age!").show();
       }
   });
+    /*
+    $('form').onsubmit(function(submit) {
+      
+      submitMessage();
+      
+    }); */
     WebFontConfig = {
       google: {
         families: ['Signika', 'sans-serif']
@@ -33,6 +39,5 @@ jQuery(function($) {
 
  //JavaScript
 function submitMessage() {
-  alert ("Thank you for signing up! If you wish to personalize your account there is more settings once you login! Have a great day!");
-  
+   alert ("Thank you for signing up! If you wish to personalize your account there is more settings once you login! Have a great day!");
 };
