@@ -190,6 +190,7 @@ html {
   font-family: sans-serif, serif;
   text-rendering: optimizeLegibility;
   background-color: #29b6f6; 
+  min-width: 3.5em;
   
 }
 
@@ -199,6 +200,7 @@ h1 {
 	line-height: 1.773em; /* 39px / 22 px = 1.773em */
 	color: white;
   text-align: center;
+  min-width: 3.5em;
   
 }
 p {
