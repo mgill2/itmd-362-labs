@@ -188,7 +188,8 @@ html {
 	line-height: 28px;
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  background-color: #29b6f6;
+  background-color: #29b6f6; 
+  font-family: sans-serif, serif;
 }
 
 
@@ -197,6 +198,10 @@ h1 {
 	line-height: 56px;
 	color: white;
   text-align: center;
+  
+}
+p {
+  padding-bottom: 14px;
 }
 
 /* Responsive Media */
@@ -248,5 +253,11 @@ form li {
 {
 	position: static;
 	
+}
+h1 {
+  font-family: 'Signika', sans-serif;
+}
+label {
+  font-family: 'Vollkorn', serif;
 }
 
