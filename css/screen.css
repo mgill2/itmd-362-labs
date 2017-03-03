@@ -184,17 +184,18 @@ textarea {
 /* ===== BASE STYLES ===== */
 /* TOD: Convert all px units to em */
 html {
-	font-size: 22.5px;
-	line-height: 28px;
-  padding: 1.182em; /* 26px / ~ 120% */
+	font-size: 1.375em; /* 22px */
+	line-height: 1.182em; /* 22px based on 22px font size value */
+  padding: 1.182em; /* 26px / ~ 120%  */
+  font-family: sans-serif, serif;
   text-rendering: optimizeLegibility;
   background-color: #29b6f6; 
-  font-family: sans-serif, serif;
+  
 }
 
 
 h1 {
-	font-size: 26px;
+	font-size: 1.182em; /* 26px */
 	line-height: 56px;
 	color: white;
   text-align: center;
