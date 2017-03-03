@@ -15,10 +15,20 @@ jQuery(function($) {
       if($('#age').val() >= 12) {
       $('p').text("Validated").show();
       }
-      if($('#age').val().length == 0) {
-        $('p').removeClass('active');
+      if($('#age').val() < 12) {
+        $('p').text("Not a valid age!").show();
       }
-  }); 
+  });
+    WebFontConfig = {
+      google: {
+        families: ['Signika', 'sans-serif']
+      }
+    };
+    WebFontConfig = {
+      google: {
+        families: ['Vollkorn', 'serif']
+      }
+    };
  });
 
  //JavaScript
