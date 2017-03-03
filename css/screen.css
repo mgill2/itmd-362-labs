@@ -194,14 +194,14 @@ html {
 
 
 h1 {
-	font-size: 35.156;
+	font-size: 26px;
 	line-height: 56px;
 	color: white;
   text-align: center;
   
 }
 p {
-  /* padding-bottom: 14px; */
+    padding-bottom: 13px; 
 }
 
 /* Responsive Media */
