@@ -17,14 +17,14 @@
     </li>
     <li id="input-age">
       <label for="age">Age</label>
-      <input type="number" pattern="[0-9]*" name="age" id="age" />
+      <input type="number" name="age" id="age" />
     </li>
-    <li id="input-email"
+    <li id="input-email">
       <label for="email">Email Address</label> 
-      <input type="email" autocomplete="email" autocorrect="off" name="email" placeholder="you@example.com" />
+      <input type="email" autocomplete="email" autocorrect="off" name="email" placeholder="you@example.com" pattern="^.+@.+$" />
     </li>
-    <li id="input-submit">
-      <input type="submit" name="submit" id="submit" value="Start Fishing" />
+    <li id="submit">
+      <input type="submit" name="submit" id="submit" value="Start Fishing" onclick="submitMessage();" />
     </li>
    </ol>
   </form>
