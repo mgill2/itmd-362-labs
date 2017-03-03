@@ -17,12 +17,12 @@
 </head>
 <body>
 <main id="content">   
-  <form method="get" action="#null">
+  <form method="get" action="#null" onsubmit="submitMessage();" >
    <h1>Welcome to the Fishing Club Sign Up Form</h1>
    <ol>
     <li id="input-name">
       <label for="name">Name</label>
-      <input type="text" autocomplete="name" name="name" id="name"  placeholder="Enter your full name" />
+      <input type="text" autocomplete="name" name="name" id="name"  placeholder="Enter your full name" required />
     </li>
     <li id="input-age">
       <label for="age">Age</label>
@@ -31,10 +31,10 @@
     <p></p>
     <li id="input-email">
       <label for="email">Email Address</label> 
-      <input type="email" autocomplete="email" autocorrect="off" name="email" placeholder="you@example.com" pattern="^.+@.+$" />
+      <input type="email" autocomplete="email" autocorrect="off" name="email" placeholder="you@example.com" pattern="^.+@.+$" required />
     </li>
     <li id="submit">
-      <input type="submit" name="submit" id="submit" value="Start Fishing" onclick="submitMessage();" />
+      <input type="submit" name="submit" id="submit" value="Start Fishing" />
     </li>
    </ol>
   </form>
